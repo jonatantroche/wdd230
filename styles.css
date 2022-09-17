@@ -1,0 +1,58 @@
+body {
+    background: rgb(159,247,255);
+    background: radial-gradient(circle, rgba(159,247,255,1) 1%, rgba(72,111,140,1) 100%);
+    font-family: "Roboto";
+}
+.container {
+    margin: 150px 200px;
+    background-color: #fefefe;
+    border-radius: 15px;
+}
+
+/* --------------------Card head----------------------------- */
+.head {
+    background-color: #486f8c;
+    padding: 20px;
+    display: flex;
+    gap: 25px;
+    border-radius: 15px 15px 0 0;
+}
+h1 {
+    font-family: "Nunito Sans";
+    font-size: 50px;
+    color: #fefefe;
+}
+img {
+    width: 130px;
+    height: 130px;
+    margin-top: 10px;
+}
+/* --------------------Card body----------------------------- */
+.card {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+h2 {
+    font-family: "Nunito Sans";
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+    color: #486f8c;
+}
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* -------------------Card footer---------------------------- */
+.footer {
+    background-color: #486f8c;
+    color: #fefefe;
+    border-radius: 0 0 15px 15px;
+    padding: 10px 20px;
+    text-align: center;
+}
+p {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
