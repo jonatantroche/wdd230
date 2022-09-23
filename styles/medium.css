@@ -18,8 +18,15 @@
         height: 130px;
         margin: 10px 0; 
     }
+    /* --------------------Card body----------------------------- */
+    .card {
+        padding: 10px 20px;
+    }
+    h2 {
+        text-align: left;
+    }
     /* -------------------Card footer---------------------------- */
-.footer {
-    border-radius: 0 0 15px 15px;
-}
+    .footer {
+        border-radius: 0 0 15px 15px;
+    }
 }
