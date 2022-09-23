@@ -4,9 +4,7 @@ body {
     font-family: "Roboto";
 }
 .container {
-    margin: 150px 200px;
     background-color: #fefefe;
-    border-radius: 15px;
 }
 
 /* --------------------Card head----------------------------- */
@@ -14,18 +12,20 @@ body {
     background-color: #486f8c;
     padding: 20px;
     display: flex;
+    flex-direction: column;
     gap: 25px;
-    border-radius: 15px 15px 0 0;
 }
 h1 {
     font-family: "Nunito Sans";
-    font-size: 50px;
+    font-size: 30px;
     color: #fefefe;
+    text-align: center;
+    margin: 0;
 }
 img {
-    width: 130px;
-    height: 130px;
-    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 0 35%;
 }
 /* --------------------Card body----------------------------- */
 .card {
@@ -48,7 +48,6 @@ a:hover{
 .footer {
     background-color: #486f8c;
     color: #fefefe;
-    border-radius: 0 0 15px 15px;
     padding: 10px 20px;
     text-align: center;
 }
