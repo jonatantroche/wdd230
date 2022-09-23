@@ -25,6 +25,9 @@
     h2 {
         text-align: left;
     }
+    .card li {
+        padding: 0;
+    }
     /* -------------------Card footer---------------------------- */
     .footer {
         border-radius: 0 0 15px 15px;

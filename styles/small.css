@@ -25,7 +25,7 @@ h1 {
 img {
     width: 100px;
     height: 100px;
-    margin: 0 35%;
+    margin: 10px 35% 0;
 }
 /* --------------------Card body----------------------------- */
 .card {
