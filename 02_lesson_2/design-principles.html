@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,24 +14,65 @@
     <title>Design Principles</title>
 </head>
 <body>
-    <h1>Design Principles Document</h1>
-    <p>Jonatan T. WDD230</p>
-    
-    <section class="container">
-        <div class="card_1">
-            <h2>Visual Hierarchy</h2>
-            <p><b>fitbit</b></p>
-            <img src="images/fitbit.png" alt="fitbit.com screenshot">
-            <p>
-                Visual hierarchy refers to the arranging of components in ascending or descending order of importance. This is 
-                accomplished using proportion, color, images, contrast, typography, whitespace, texture, and style.
-                A critical purpose of visual hierarchy is to provide a focal point; this indicates to visitors where the most 
-                critical information is located.
-            </p>
-            <button></button>
+    <main>
+        <div class="title">
+            <h1>Design Principles Document</h1>
+            <p class="name">Jonatan T. WDD230</p>
+            <a href="javascript:history.back()"> Main menu</a>
         </div>
-        <div class="card_2"></div>
-        <div class="card_3"></div>
-    </section>
+
+        <section class="container">
+            <div class="card_1">
+                <h2>Visual Hierarchy</h2>
+                <p><b>fitbit</b></p>
+                <img src="images/fitbit.png" alt="fitbit.com screenshot">
+                <p>
+                    Visual hierarchy refers to the arranging of components in ascending or descending order of importance. This is 
+                    accomplished using proportion, color, images, contrast, typography, whitespace, texture, and style.
+                    A critical purpose of visual hierarchy is to provide a focal point; this indicates to visitors where the most 
+                    critical information is located.
+                </p>
+                <a href="https://www.fitbit.com/global/us/home">Visit Page</a>
+            </div>
+            <div class="card_2">
+                <h2>Alignment</h2>
+                <p><b>Quip</b></p>
+                <img src="images/quip.jpeg" alt="quip.com screenshot">
+                <p>
+                    Although alignment is typically overlooked, without this tool a design would lack a sense of direction, unity, 
+                    or organization. Alignment simply refers to how elements are placed on a page. Its purpose goes beyond organization, 
+                    it is vital for enhancing the overall visual appeal of a design or page layout.
+                    Typically, alignment is applied to two specific design elements: typography and images. Graphic designers attempt 
+                    to create a balance between the two so that both images and text are visually appealing and have a seamless connection. 
+                    Through good use of alignment, a composition will appear neat, clean, and readable to an audience.
+                </p>
+                <a href="https://quip.com/">Visit Page</a>
+            </div>
+            <div class="card_3">
+                <h2>Contrast</h2>
+                <p class="apple"><b>Apple</b></p>
+                <img src="images/apple.png" alt="apple.com screenshot">
+                <p>
+                    People say that opposites attract and this can be true for elements of design as well. Imagine a composition without 
+                    contrast every color, font, shape, etc. would be the same size, and that design would be rather dull. Contrast is the 
+                    tool that makes a design “pop,” making it memorable for viewers.
+                    Contrast also aids in the usability of a composition. A design’s organization is dependent upon how contrast is used 
+                    to lead a viewer’s eye towards what is most important. For instance, if all the content within a design was the same 
+                    size, how would your audience know what information is the most significant? Through contrast designers are able to 
+                    highlight certain elements they want to emphasize, creating a focal point for an audience and a visual hierarchy.
+                </p>
+                <a href="https://www.apple.com/">Visit Page</a>
+            </div>
+        </section>
+        <div class="footer">
+            <p class="footer-text">
+                &copy; <span id="currentdate"></span> *Jonatan Troche A.* Bolivia
+            </p>
+            <p>
+                Last Update: <span id="update"></span>
+            </p>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
 </body>
 </html>

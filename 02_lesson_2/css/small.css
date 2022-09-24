@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    background: radial-gradient(circle, rgba(159,247,255,1) 1%, rgba(72,111,140,1) 100%);
+}
+main {
+    padding: 20px;
+}
+/* ---------------------title------------------------- */
+h1 {
+    font-family: "Poppins";
+    color: rgba(159,247,255,1);
+}
+.name {
+    color: rgba(159,247,255,1);
+}
+/* ---------------------cards------------------------- */
+h2 {
+    font-family: "Poppins";
+    color: #486f8c;
+}
+img {
+    width: 100%;
+    margin: 0 auto;
+}
+.card_1, .card_2, .card_3 {
+    margin-top: 20px;
+    background-color: #fefefe;
+    border-radius: 10px;
+    padding: 15px;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: #fefefe;
+    background-color: #486f8c;
+    padding: 6px 15px;
+    border-radius: 10px;
+    transition: padding 1s
+}
+a:hover {
+    background-color: rgba(159,247,255,1);
+    color: #486f8c;
+    font-weight: bold;
+    padding: 6px 30px;
+}
+/* ---------------------footer------------------------- */
+.footer {
+    color: rgba(159,247,255,1);
+    text-align: center;
+    margin: 20px 0 10px;
+}
+.footer p {
+    margin: 0;
+}
