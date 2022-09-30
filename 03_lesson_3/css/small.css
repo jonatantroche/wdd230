@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto";
+    background-color: #f4e9e3;
+}
+main {
+    padding: 15px;
+}
+/* -----------------------------header---------------------------- */
+header {
+    padding: 15px;
+    background-color: #1c4839;
+}
+h1 {
+    color: #d59c41;
+    font-family: "Poppins";
+    font-size: 25px;
+    margin: 30px 0;
+}
+/* ------------------------------nav------------------------------ */
+a {
+    text-decoration: none;
+    color: #d59c41;
+    padding: 15px;
+    font-family: "Poppins";
+}
+ul {
+    list-style: none;
+    background-color: #1c4839;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+li {
+    padding: 15px;
+    border-bottom: 1px solid #9f4900;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* ------------------------------main----------------------------- */
+h2 {
+    color: #9f4900;
+    font-family: "Poppins";
+}
+.card_1, .card_2, .card_3 {
+    background-color: #d59c41;
+    margin: 15px 0;
+    padding: 13px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img {
+    width: 100%;
+}
+p {
+    padding: 5px;
+    color: #1c4839;
+}
+/* --------------------------target_audience---------------------- */
+.card_3 ul {
+    background-color: #d59c41;
+}
+.card_3 li {
+    font-weight: bolder;
+    color: #1c4839;
+}
+/* --------------------------color_scheme------------------------- */
+.color_1, .color_2, .color_3, .color_4{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.color_1 {
+    background-color: #1c4839;
+}
+.color_2 {
+    background-color: #d59c41;
+    border: 1px solid #1c4839;
+}
+.color_3 {
+    background-color: #9f4900;
+}
+.color_4 {
+    background-color: #f4e9e3;
+}
+.card_1 p {
+    font-weight: bold;
+}
+/* ---------------------------Typography-------------------------- */
+.poppins {
+    font-family: "Poppins";
+}
+.roboto {
+    font-family: "Roboto";
+}
+/* -----------------------------footer---------------------------- */
+footer {
+    background-color: #1c4839;
+    color: #d59c41;
+    text-align: center;
+    font-size: 12px;
+    padding: 30px 15px;
+    box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
