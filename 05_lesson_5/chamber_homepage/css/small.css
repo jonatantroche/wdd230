@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto";
+}
+h2 {
+    font-family: "Poppins";
+    color: #d59c41;
+}
+/* -------------------------------header--------------------------------- */
+header {
+    background-color: #1c4839;
+    color: #d59c41;
+    padding: 15px;
+}
+.logo {
+    width: 120px;
+    margin-top: 15px;
+}
+.social_media img {
+    width: 40px;
+}
+#formatted-date {
+    display: block;
+    background-color: #f4e9e3;
+    color: #d59c41;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px 0;
+}
+#banner {
+    padding: 10px;
+    text-align: center;
+}
+/* --------------------------------nav----------------------------------- */
+nav ul {
+    list-style: none;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+nav ul.open {
+    display: block;
+}
+nav ul li a {
+    color: #d59c41;
+    text-decoration: none;
+    font-family: "Poppins";
+    border-top: 1px solid #d59c41;
+    display: block;
+    padding: .8rem 2vw;
+    font-weight: bold;
+}
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #d59c41;
+}
+nav button:hover {
+    color: #9f4900;
+}
+nav ul li a:hover {
+    background-color: #9f4900;
+}
+/* --------------------------------main---------------------------------- */
+/* hero */
+.hero {
+    position: relative;
+}
+.hero img {
+    width: 100%;
+}
+.hero_title {
+    position: absolute;
+    top: 1rem;
+    left: 10px;
+}
+.hero h2 {
+    font-weight: bold;
+    padding: 0 5px;
+    font-size: 35px;
+    color: #d59c41;
+    font-weight: bolder;
+    background-color: #f4e9e3;
+}
+.hero_button {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+.hero button {
+    border: none;
+    background-color: #f4e9e3;
+    color: #d59c41;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.hero button:hover  {
+    background-color: #1c4839;
+    color: #d59c41;
+    cursor: pointer;
+}
+/* events */
+.events {
+    background-color: #f4e9e3;
+    padding: 20px;
+    text-align: center;
+}
+.events img {
+    width: 50%;
+}
+/* weather */
+.weather {
+    text-align: center;
+    padding: 20px;
+}
+.weather img {
+    width: 20%;
+}
+.weather_line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+}
+.weather p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.weather hr {
+    margin-bottom: 10px;
+}
+/* news */
+.news {
+    text-align: center;
+    background-color: #f4e9e3;
+    padding: 20px;
+}
+/* join */
+.join {
+    display: none;
+}
+/* spotlight */
+.spotlight {
+    margin: 10px;
+    background-color: #f4e9e3;
+    padding: 15px;
+}
+/* spotlight_1 */
+.spotlight_1 {
+    background-color: #fefefe;
+    text-align: center;
+    padding: 10px;
+}
+.spotlight_1 img {
+    width: 30%;
+}
+/* spotlight_2 */
+.spotlight_2 {
+    background-color: #fefefe;
+    text-align: center;
+    padding: 10px;
+}
+.spotlight_2 img {
+    width: 50%;
+}
+/* spotlight_3 */
+.spotlight_3 {
+    display: none;
+}
+/* -------------------------------footer--------------------------------- */
+footer {
+    background-color: #1c4839;
+    color: #d59c41;
+    padding: 15px;
+    text-align: center;
+}
+.footer_logo {
+    width: 80px;
+}
+hr {
+    color: #d59c41;
+}
+.direction {
+    text-decoration: none;
+    color: #d59c41;
+}
+.footer_line {
+    margin-top: 15px;
+}
