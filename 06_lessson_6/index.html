@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <title>Chamber of Commerce Project</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logo.webp" alt="bcoc_logo">
+        <h1>Bolivian chamber of Commerce</h1>
+        <div id="formatted-date"></div>
+        <div class="social_media">
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook_logo"></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="linkedin_logo"></a>
+        </div>
+        <nav>
+            <button id="hamburguer">&#9776;</button>
+            <ul id="primaryNav">
+                <li class="nav_menu_item"><a href="index.html" class="nav-link">Discover</a></li>
+                <li class="nav_menu_item"><a href="#" class="nav-link">Directory</a></li>
+                <li class="nav_menu_item"><a href="#" class="nav-link">Join</a></li>
+                <li class="nav_menu_item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="banner"></div>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="hero">
+                <img src="images/hero_small.jpg" alt="hero_image"
+                     srcset="images/hero_small.jpg 620w, images/hero_medium.jpg 950w, images/hero_large.jpg 1500w">
+                <div class="hero_title">
+                    <!-- <h2>Wellcome to Bolivia</h2> -->
+                </div>
+                <div class="hero_button">
+                    <button>Join Us</button>
+                </div>
+            </div>
+
+            <div class="events">
+                <h2>Fipaz</h2>
+                <img src="images/fipaz_logo.png" alt="fipaz_logo">
+                <p>FIPAZ is a multisector event that has been held for 20 years in the city of La Paz. It is the ideal setting for small, medium and large entrepreneurs from all over Bolivia and abroad, to show the best of their products and services.</p>
+            </div>
+
+            <div class="weather">
+                <h2>Weather</h2>
+                <div class="weather_line">
+                    <img src="images/weather_icon.png" alt="weather_icon">
+                    <p><span id="temp">33</span></p>
+                    <p>Partly Cloudy</p>
+                </div>
+                <hr>
+                <p>Wind Speed: <span id="wind_speed">14</span> mph</p>
+                <p>Windchill: <span id="windchill">N/A</span></p>
+            </div>
+
+            <div class="news">
+                <h2>News Relase</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus asperiores possimus beatae at, suscipit voluptatum, doloribus tempore perspiciatis vel porro laudantium tempora incidunt minus deserunt reprehenderit magni provident sequi ducimus.</p>
+            </div>
+
+            <div class="join">
+                <button>Join Us!</button>
+                <p>Discover how to join the chamber of commerce and how it will benefit your organization</p>
+            </div>
+
+            <section class="spotlight">
+                <div class="spotlight_1">
+                    <h2>Pollos Cochabamba</h2>
+                    <img src="images/pollos.png" alt="pollos_logo">
+                    <p class="slogan">The best fried chicken of the city</p>
+                    <hr>
+                    <p>polloscochabamba@gmai.com</p>
+                    <p>+591 123-456789</p>
+                </div>
+                <div class="spotlight_2">
+                    <h2>Farmacorp</h2>
+                    <img src="images/farmacorp.jpg" alt="farmacorp_logo">
+                    <p class="slogan">Get well</p>
+                    <hr>
+                    <p>farmacorp@gmail.com</p>
+                    <p>+591 123-456789</p>
+                </div>
+                <div class="spotlight_3">
+                    <h2>Tigo</h2>
+                    <img src="images/tigo_logo.png" alt="tigo_logo">
+                    <p class="slogan">always with you</p>
+                    <hr>
+                    <p>tigo@gmail.com</p>
+                    <p>+591 123-456789</p>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="information">
+            <img class="footer_logo" src="images/logo.webp" alt="footer_logo">
+            <h3>Bolivian Chamber of Commerce</h3>
+        </div>
+        <div class="contact_info">
+            <p>Ave. Arce N 0000, La Paz Bolivia</p>
+            <p>info@boliviachamberofcommerce.com ✉</p>
+            <p class="phone">+591 75255654 📞</p>
+            <a class="direction" href="https://goo.gl/maps/4gFZojvpySmaJZnT8">Location 📍</a>
+        </div>
+        <div class="footer_line">
+            <hr>
+            <br>
+            <p>
+                ©
+                <span id="year"></span> 
+                Bolivia Chamber of Commerce
+            </p>
+            <p>Jonatan Troche | WDD 230 project</p>
+            <div id="last-modify"></div>
+        </div>
+    </footer>
+    <script src="js/windchill.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/date.js"></script>
+</body>
+</html>
