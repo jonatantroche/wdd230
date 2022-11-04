@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <title>Chamber of Commerce Project</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logo.webp" alt="bcoc_logo">
+        <h1>Bolivian chamber of Commerce</h1>
+        <div id="formatted-date"></div>
+        <div class="social_media">
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook_logo"></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="linkedin_logo"></a>
+        </div>
+        <nav>
+            <button id="hamburguer">&#9776;</button>
+            <ul id="primaryNav">
+                <li class="nav_menu_item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav_menu_item"><a href="discover.html" class="nav-link">Discover</a></li>
+                <li class="nav_menu_item"><a href="join.html" class="nav-link">Join</a></li>
+                <li class="nav_menu_item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="banner"></div>
+    </header>
+
+    <body>
+        <main class="join_page">
+            <div class="form_container">
+                <h1 class="form_title">Join us</h1>
+                <form method="get" action="thanks.html">
+                     <fieldset>
+                        <legend>Personal Information</legend>
+                        <label class="top">First Name* <input type="text" name="fname" required></label>
+                        <label class="top">Last Name* <input type="text" name="lname" required></label>
+                        <label class="top">Bussines Position Title <input type="text" minlength="7"></label>
+                        <label class="top">Email* <input type="email" name="email" placeholder="something@gmail.com" required></label>
+                        <label class="top">Phone* <input type="tel" name="phone" placeholder="1234445" required></label>
+                        <label class="top">Bussines Name <input type="text" name="bussines" placeholder="my company name, LLC"></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Choose a Membership Level</legend>
+                        <label class="chose"><input type="radio" name="membership">NP Membership</label>
+                        <label class="chose"><input type="radio" name="membership">Bronze Membership</label>
+                        <label class="chose"><input type="radio" name="membership">Silver Membership</label>
+                        <label class="chose"><input type="radio" name="membership">Gold Membership</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Bussines Description</legend>
+                        <textarea name="area" id="description" rows="10"></textarea>
+                    </fieldset>
+                    <input type="hidden" id="full.datev" name="full-date" value="">
+                    <input type="submit" value="Send my appication" class="submitbtn">
+                </form>
+            </div>
+            <div class="membership_container">
+                <h1 class="member">Membership Details</h1>
+                <div class="npmember">
+                    <h2>NP Membership</h2>
+                    <ul>
+                        <li>NP Membership is for nonprofit organizations and there is no fee.</li>
+                        <li>You will have access to our free services</li>
+                    </ul>
+                </div>
+                <div class="bronzemember">
+                    <h2>Bonze Membership</h2>
+                    <ul>
+                        <li>With the bronze membership, you are part of our group</li>
+                        <li>You have a 5% discount on all our companies members</li>
+                        <li>Access to selected conferences and talks</li>
+                        <li>Price: 50bs per month</li>
+                    </ul>
+                </div>
+                <div class="silvermember">
+                    <h2>Silver Membership</h2>
+                    <ul>
+                        <li>You will have a 7% discount on all our companies members</li>
+                        <li>Support with our experts, 2 sessions per month to help to grow your bussines</li>
+                        <li>Access to all conferences and talks</li>
+                        <li>Price: 100bs per month</li>
+                    </ul>
+                </div>
+                <div class="goldmember">
+                    <h2>Gold Membership</h2>
+                    <ul>
+                        <li>You will have a 10% and 15% discount in all our companies members</li>
+                        <li>Support with a complete team to solve problems and archive goals</li>
+                        <li>Meetings, conferences, and talks with special guests</li>
+                        <li>As a part of our gold membership, you are part of a group of investors</li>
+                        <li>Enabled our investment funds and loans</li>
+                        <li>Price: 200bs per month</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </body>
+
+    <footer>
+        <div class="information">
+            <img class="footer_logo" src="images/logo.webp" alt="footer_logo">
+            <h3>Bolivian Chamber of Commerce</h3>
+        </div>
+        <div class="contact_info">
+            <p>Ave. Arce N 0000, La Paz Bolivia</p>
+            <p>info@boliviachamberofcommerce.com ✉</p>
+            <p class="phone">+591 75255654 📞</p>
+            <a class="direction" href="https://goo.gl/maps/4gFZojvpySmaJZnT8">Location 📍</a>
+        </div>
+        <div class="footer_line">
+            <hr>
+            <br>
+            <p>
+                ©
+                <span id="year"></span> 
+                Bolivia Chamber of Commerce
+            </p>
+            <p>Jonatan Troche | WDD 230 project</p>
+            <div id="last-modify"></div>
+        </div>
+    </footer>
+    <script src="js/banner.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/date.js"></script>
+</body>
+</html>
