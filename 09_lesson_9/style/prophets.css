@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+header,
+main,
+footer {
+  margin: 1rem;
+  text-align: center;
+}
+main{
+    box-shadow: 0 0 30px rgb(43, 42, 42);
+    background-color:rgb(197, 194, 194);
+}
+
+h1{
+  color: blue ;
+  font-family:Georgia, 'Times New Roman';
+  margin-bottom: 0;
+}
+
+h2{
+    color: blue;
+    font-family: 'Times New Roman';
+    margin: 5px;
+}
+p{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  padding: 10px;
+}
+
+section{
+    margin: 0.25rem;
+    padding: 1rem;
+    background-color: rgb(145, 149, 167);
+    border: 1px solid black;
+    
+}
+  
+  img {
+    height: 65%;
+    max-width: 75%;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+  }
+
+  footer{
+    color:rgb(50, 44, 141);
+    font-size: 1.2em;
+  }
