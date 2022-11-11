@@ -118,4 +118,8 @@
     .image_gallery h2 {
         padding-left: 35px;
     }
+    .visits {
+        margin-top: 0;
+        grid-column: 1/3;
+    }
 } 

@@ -218,3 +218,12 @@ hr {
 .img1 {
     width: 50%;
 }
+.visits {
+    background-color: #1c4839;
+    color: #d59c41;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
