@@ -22,10 +22,10 @@ fetch(requestURL)
   let paragraph4=document.createElement("p");
 
    heading.textContent=`${companie.name}`;
-   paragraph.textContent=`Address: ${companie.location}`;
-   paragraph2.textContent=`Phone Number: ${companie.telf}`;
-   website.innerHTML=`Website: <a href="${companie.website}" target="_blank">${companie.website}</a>`;
-   paragraph4.textContent=`Membership: ${companie.membership}`;
+   paragraph.textContent=`${companie.location}`;
+   paragraph2.textContent=`${companie.telf}`;
+   website.innerHTML=`<a href="${companie.website}" target="_blank">${companie.website}</a>`;
+   paragraph4.textContent=`${companie.membership}`;
 
    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
    portrait.setAttribute('src', companie.logourl);

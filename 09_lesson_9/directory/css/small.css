@@ -318,3 +318,56 @@ label.top input:required {
     color: #9f4900;
     cursor: pointer;
 }
+/* ----------------------------------Directory--------------------------------------------------- */
+.directory {
+    padding: 15px;
+}
+/* --------title---------------- */
+.directory h1 {
+    color: #d59c41;
+}
+/* ------buttons------------------ */
+.grid_list_button {
+    text-align: center;
+    margin: 30px 0;
+}
+#list, #grid {
+    font-size: 40px;
+    color: #9f4900;
+    border: 2px solid #9f4900;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+#list {
+    margin-right: 10px;
+}
+#grid {
+    margin-left: 10px;
+}
+/* -----cards serction---------- */
+.directory img {
+    width: 150px;
+}
+.directory_container.grid {
+    text-align: center;
+}
+/* ----------cards-------------- */
+.cards section {
+    margin: 15px 0;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* -------------list change---------- */
+.directory_container.list img{
+    display: none;
+}
+.directory_container.list h2 {
+    color: black;
+    font-size: 17px;
+}
+.directory_container.list section {
+    box-shadow: none;
+}
+.directory_container.list section:nth-child(even) {
+    background-color: #ffe5d0;
+}

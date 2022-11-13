@@ -189,4 +189,16 @@
     .thanks_button {
         margin-left: 38%;
     }
+    /* ---------------------------------------directory------------------------------------------ */
+    /* -----------buttons----------- */
+    #list:hover, #grid:hover {
+        color: #d59c41;
+        border: 2px solid #d59c41;
+    }
+    /* ----------cards--------------- */
+    .directory_container.grid .cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 15px;
+    }
 }
