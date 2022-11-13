@@ -1,4 +1,4 @@
-const requestURL = 'https://https://jonatantroche.github.io/wdd230/09_lesson_9/directory/json/data.json';
+const requestURL = 'https://jonatantroche.github.io/wdd230/09_lesson_9/directory/json/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)

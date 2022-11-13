@@ -4,7 +4,7 @@
             "name": "Tigo",
             "location": "Av. Mariscal Santa Cruz, esq. Yanacocha, Edificio Hansa, PB",
             "telf": "800-175000",
-            "logourl": "https://https://jonatantroche.github.io/wdd230/09_lesson_9/directory/directory_images/tigo.png",
+            "logourl": "https://jonatantroche.github.io/wdd230/09_lesson_9/directory/images/directory_images/tigo.png",
             "website": "http://www.tigo.com.bo",
             "membership": "Silver Membership"
         },
@@ -12,7 +12,7 @@
             "name": "Clinica Alemana",
             "location": "Av. 6 de agosto No. 2821, Zona San Jorge",
             "telf": "(591)224-32521",
-            "logourl": "https://https://jonatantroche.github.io/wdd230/09_lesson_9/directory/directory_images/clinica_alemana.png",
+            "logourl": "https://jonatantroche.github.io/wdd230/09_lesson_9/directory/images/directory_images/clinica_alemana.png",
             "website": "http://www.clinicalemana.com.bo",
             "membership":"Gold Membership"
         },
@@ -20,7 +20,7 @@
             "name": "Fortaleza SAFI",
             "location": "Av. 16 de julio Nª 1591 Edif. Señor de Mayo Z. Central",
             "telf": "800-107234",
-            "logourl": "https://https://jonatantroche.github.io/wdd230/09_lesson_9/directory/directory_images/fortaleza_safi.png",
+            "logourl": "https://jonatantroche.github.io/wdd230/09_lesson_9/directory/images/directory_images/fortaleza_safi.png",
             "website": "http://www.fortalezasafi.com",
             "membership": "Gold Membership"
         },
@@ -28,7 +28,7 @@
             "name": "BOA",
             "location": "Av. Camacho #1413 esq. Loayza",
             "telf": "(+591) (2) 2166500",
-            "logourl": "https://https://jonatantroche.github.io/wdd230/09_lesson_9/directory/directory_images/boa.png",
+            "logourl": "https://jonatantroche.github.io/wdd230/09_lesson_9/directory/images/directory_images/boa.png",
             "website": "https://www.boa.bo/BoAWebSite/",
             "membership": "Gold Membership"
         },
@@ -36,7 +36,7 @@
             "name": "Prolimpio",
             "location": "Calle M. Pinilla No.469 entre Av. 20 de Octubre,",
             "telf": "(591)224-33232",
-            "logourl": "https://https://jonatantroche.github.io/wdd230/09_lesson_9/directory/directory_images/prolimpio.png",
+            "logourl": "https://jonatantroche.github.io/wdd230/09_lesson_9/directory/images/directory_images/prolimpio.png",
             "website": "www.prolimpio.com",
             "membership": "Silver Membership"
         },
@@ -44,7 +44,7 @@
             "name": "Trans Copacabana SRL",
             "location": "Calle Luis Uriona No. 1936",
             "telf": "(591)72233555",
-            "logourl": "https://https://jonatantroche.github.io/wdd230/09_lesson_9/directory/directory_images/transcopacabana.png",
+            "logourl": "https://jonatantroche.github.io/wdd230/09_lesson_9/directory/images/directory_images/transcopacabana.png",
             "website": "https://transcopacabanasa.com/",
             "membership": "Bronze Membership"
         },
@@ -52,7 +52,7 @@
             "name": "Pollos Cochabamba",
             "location": "C. Cochabamba No.125",
             "telf": "(591)62437333",
-            "logourl": "https://https://jonatantroche.github.io/wdd230/09_lesson_9/directory/directory_images/pollos.png",
+            "logourl": "https://jonatantroche.github.io/wdd230/09_lesson_9/directory/images/directory_images/pollos.png",
             "website": "https://www.facebook.com/polloscochabamba/",
             "membership": "Silver Membership"
         },
@@ -60,7 +60,7 @@
             "name": "Toyosa S.A.",
             "location": "Av. Mariscal Santa Cruz # 1413",
             "telf": "(591)698-311219",
-            "logourl": "https://https://jonatantroche.github.io/wdd230/09_lesson_9/directory/directory_images/toyosa.png",
+            "logourl": "https://jonatantroche.github.io/wdd230/09_lesson_9/directory/images/directory_images/toyosa.png",
             "website": "http://www.toyosa.com/",
             "membership": "Gold Membership"
         },
@@ -68,7 +68,7 @@
             "name": "Farmacorp",
             "location": "Av. 16 de Julio No. 1804",
             "telf": "(591)223-11311",
-            "logourl": "https://https://jonatantroche.github.io/wdd230/09_lesson_9/directory/directory_images/farmacorp.png",
+            "logourl": "https://jonatantroche.github.io/wdd230/09_lesson_9/directory/images/directory_images/farmacorp.png",
             "website": "http://www.farmacorp.com/",
             "membership": "Gold Membership"
         }
