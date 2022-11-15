@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #3a3b3c;
+    color: #fefefe;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.weather {
+    height: 100%;
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#weather-icon {
+    width: 100px;
+    margin: 100px 0 50px 0;
+}
+h1 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+p {
+    padding: 10px;
+}
+
