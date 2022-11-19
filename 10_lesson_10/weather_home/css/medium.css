@@ -21,7 +21,8 @@
         object-fit: cover;
     }
     .hero button {
-        right: 10px;
+        margin-right: 20px;
+        bottom: 40px;
     }
     .hero h2 {
         font-size: 35px;
@@ -76,6 +77,15 @@
     /* weather */
     .weather {
         background-color: #f4e9e3;
+    }
+    .weather_title {
+        gap: 10px;
+    }
+    .current_weather {
+        font-size: 15px;
+    }
+    .weather_title h2 {
+        font-size: 20px;
     }
     /* --------------------------footer-------------------------------- */
     footer {

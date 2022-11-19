@@ -119,24 +119,31 @@ nav ul li a:hover {
 /* weather */
 .weather {
     text-align: center;
-    padding: 20px;
+    padding: 0;
+    background-color: #fefefefe;
 }
 .weather img {
-    width: 20%;
+    width: 70px;
 }
-.weather_line {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 15px;
+figcaption {
+    padding-bottom: 10px;
+    color: #9f4900;
 }
-.weather p {
-    font-size: 20px;
+.weather_information {
+    background-color: #1c4839;
+    color: #fefefe;
+    padding: 10px;
+}
+.current_weather {
+    color: #d59c41;
     font-weight: bold;
+    font-size: 25.5px;
+    font-family: "Poppins";
 }
-.weather hr {
-    margin-bottom: 10px;
+.weather_title {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 /* news */
 .news {
