@@ -161,23 +161,29 @@ figcaption {
     background-color: #f4e9e3;
     padding: 15px;
 }
+.spotlight hr {
+    margin: 10px 0;
+}
 /* spotlight_1 */
 .spotlight_1 {
     background-color: #fefefe;
+    border-bottom: 1px solid #d59c41;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 .spotlight_1 img {
-    width: 30%;
+    width: 150px;
+    margin: 5px;
 }
 /* spotlight_2 */
 .spotlight_2 {
     background-color: #fefefe;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 .spotlight_2 img {
-    width: 50%;
+    width: 150px;
+    margin: 5px;
 }
 /* spotlight_3 */
 .spotlight_3 {
@@ -225,7 +231,16 @@ hr {
 .img1 {
     width: 50%;
 }
-
+.visit {
+    width: 100%;
+    background-color: #1c4839;
+    color: #d59c41;
+    padding: 15px;
+    margin: 15px 0;
+    font-family: "Roboto";
+    text-align: center;
+    font-weight: bold;
+}
 /* ---------------------------------------Join Page---------------------------------------------- */
 .join_page {
     display: block;
