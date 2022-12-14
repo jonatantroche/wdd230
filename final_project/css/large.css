@@ -1,0 +1,155 @@
+@media only screen and (min-width: 1030px) {
+    /* --------------- nav ---------------- */
+    #hamburger {
+        display: none;
+    }
+    footer {
+        width: 100%;
+    }
+    /* --------------------------------------- main ---------------------------------- */
+    .home_1_info h1, .home_2_info h2, .home_3_info h2, .home_6_info h2 {
+        font-size: 50px;
+    }
+    .home_1_info a, .home_2_info a, .home_3_info a, .home_6_info a {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    /* ---------cards------------ */
+    .cards {
+        width: 1100px;
+        margin: 90px auto;
+        gap: 70px;
+    }
+    /*---------weather -----------*/
+    .weather figcaption {
+        font-weight: bolder;
+        font-size: 40px;
+    }  
+    .weather p {
+        font-size: 20px;
+    }
+    /* --------picture_3-------- */
+    .picture_3 {
+        display: block;
+    }
+    /* ---------------- footer -------------- */
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 150px;
+    }
+    footer img {
+        margin-top: 5px;
+    }
+    footer p {
+        font-size: 16px;
+    }
+    .social_media {
+        grid-column: 1/2;
+    }
+    .information {
+        grid-column: 2/3;
+        text-align: right;
+    }
+    .information a {
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .credits {
+        grid-column: 1/3;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .modif {
+        justify-content: center;
+    }
+    .credits_links {
+        justify-content: center;
+    }
+    /* ------------------------------- About us page -------------------------- */
+    .purpose {
+        margin: 100px 0;
+    }
+    .purpose h1 {
+        font-size: 50px;
+    }
+    .purpose p {
+        font-size: 20px;
+        margin: 0 150px;
+    }
+    /* ----history------ */
+    .history img {
+        width: 30%;
+    }
+    .history_info {
+        padding: 100px;
+    }
+    .history h2 {
+        margin-top: 13%;
+    }
+    .history p {
+        font-size: 25px;
+    }
+    /* ------location----- */
+    .location_info {
+        display: flex;
+        margin: 100px 0;
+    }
+    .location_info iframe {
+        width: 50%;
+    }
+    .location_data {
+        width: 50%;
+        padding: 100px;
+    }
+    .location_data h2 {
+        font-size: 50px;
+    }
+    /* -----food truck----- */
+    .food_trucks {
+        padding: 100px;
+    }
+    .food_trucks img {
+        width: 50%;
+    }
+    .food_truck_info {
+        width: 50%;
+    }
+    .food_truck_info h2 {
+        font-size: 50px;
+        margin: 40px 0;
+    }
+    .food_truck_info p {
+        font-size: 20px;
+    }
+    /*-------- about form --------*/
+    .about_form {
+        margin: 20px 250px;
+    }
+    .about_form h2 {
+        font-size: 50px;
+    }
+    /*----------------------------------- fresh page --------------------------------------*/
+    .fruit_card {
+        display: flex;
+        margin: 100px;
+    }
+    .fruit_info {
+        width: 50%;
+    }
+    .fruit_info img {
+        margin-bottom: 30px;
+    }
+    .fruit_info h1, h2 {
+        font-size: 50px;
+    }
+    .fruit_info p {
+        font-size: 25px;
+    }
+    .fruit_info li {
+        font-size: 25px;
+    }
+    /*------fruit form--------*/
+}
+

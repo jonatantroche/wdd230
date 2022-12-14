@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Comfortaa";
+}
+/* ------------------------------------- nav ----------------------------------- */
+nav {
+    background-color: #BB2649;
+    height: 100px;
+    width: 100%;
+}
+.logo {
+    position: absolute;
+    padding: 18px 40px;
+}
+.logo img {
+    height: 60px;
+}
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 100px;
+}
+nav ul li a {
+    color: #fefefe;
+    font-size: 25px;
+    font-family: "Fredoka One";
+    padding: 0 10px;
+    border-radius: 3px;
+} 
+li a:hover {
+    background-color: #fefefe;
+    color: #BB2649;
+    transition: .5s;
+}
+/* ----------------------------------------- button ---------------------------- */
+header button {
+    font-size: 30px;
+    color: #fefefe;
+    float: right;
+    margin-right: 20px;
+    line-height: 85px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+/* ----------------------------------------- tablet view  -----------------------*/
+@media (max-width: 952px){
+    .logo {
+        padding-left: 15px;
+    }
+    nav ul {
+        padding-right: 15px;
+    }
+    nav ul li a {
+        font-size: 14px;
+    }
+}
+/* ----------------------------------------- phone view  -----------------------*/
+@media (max-width: 790px){
+    header button {
+        display: block;
+    }
+    ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: #F78154;
+        top: 85px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 35px;
+    }
+    nav ul li a {
+        font-size: 30px;
+    }
+    li a:hover {
+        background-color: none;
+        color: #BB2649;
+    }
+    nav ul.open {
+        left: 0;
+    }
+}
+/* --------------------------------------- main ---------------------------------- */
+.home_1_info, .home_3_info, .home_6_info {
+    background-color: #BB2649;
+    color: #fefefe;
+}
+.home_1_info a:hover, .home_2_info a:hover, .home_3_info a:hover, .home_6_info a:hover{
+    background-color: #F78154;
+    color: #F2C14E;
+    transition: .5s;
+}
+/*----home_1----- */
+main img {
+    width: 100%;
+}
+.home_1_info, .home_2_info, .home_3_info, .home_6_info {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.home_1_info h1 {
+    font-family: "Fredoka One";
+}
+.home_1_info p {
+    margin-top: 10px;
+}
+.home_1_info a  {
+    background-color: #fefefe;
+    color: #BB2649;
+    border-radius: 15px;
+    font-family: "Fredoka One";
+    padding: 5px;
+    width: fit-content;
+    margin-top: 15px;
+} 
+/* ------home_2--------- */
+.home_2_info {
+    color: #BB2649;
+}
+.home_2_info h2 {
+    margin-bottom: 24px;
+    font-family: "Fredoka One";
+}
+.home_2_info a {
+    border: 5px solid #BB2649;
+    border-radius: 15px;
+    padding: 10px 20px;
+    width: fit-content;
+    margin-top: 10px;
+    font-family: "Fredoka One";
+    color: #BB2649;
+}
+/* -----home_3----------- */
+.weather {
+    padding: 15px;
+    color: #BB2649;
+}
+.weather figure {
+    text-align: center;
+    margin: 30px 0;
+}
+.weather figcaption {
+    font-size: 30px;
+}
+.weather img {
+    width: 80px;
+}
+.weather p {
+    font-size: 20px;
+    padding: 5px 0;
+}
+.home_3_info h2 {
+    font-family: "Fredoka One";
+    margin-top: 50px;
+}
+.home_3_info a {
+    color: #BB2649;
+    background-color: #fefefe;
+    padding: 10px 20px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    font-family: "Fredoka One";
+    margin-top: 20px;
+}
+/* -------cards (home 4 and 5)----------- */
+.cards {
+    padding: 10px;
+    width: 100%;
+}
+picture {
+    position: relative;
+}
+.cards img {
+    display: block;
+}
+.img_card {
+    position: absolute;
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+picture:hover .img_card {
+    opacity: 1;
+}
+.picture_3 {
+    display: none;
+}
+/* --------home  6 ----------- */
+.home_6_container img {
+    margin-top: 10px;
+}
+.home_6_info h2 {
+    margin: 20px 0 0;
+    font-family: "Fredoka One";
+}
+.home_6_info a {
+    background-color: #fefefe;
+    color: #BB2649;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    font-family: "Fredoka One";
+    border-radius: 15px;
+    margin-top: 15px;
+}
+/* ---------nav bottom--------- */
+.nav_bottom li {
+    padding: 40px 10px;
+    font-size: 30px;
+}
+/* -------------------------------------- footer --------------------------------- */
+footer {
+    padding: 15px;
+    background-color: #BB2649;
+    color: #fefefe;
+    font-size: 12px;
+}
+footer img {
+    width: 40px;
+    margin: 30px 5px;
+}
+footer p {
+    padding: 8px 0;
+    font-weight: bold;
+}
+.information a {
+    color: #fefefe; 
+}
+.information a:hover {
+    text-decoration: underline;
+    color: #F2C14E;
+}
+.modif {
+    display: flex;
+}
+#last-modify {
+    font-family: "COmfortaa";
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 0 0 5px;
+}
+.credits_links {
+    display: flex;
+    gap: 7px;
+}
+.credits_links a {
+    color: #fefefe;
+    font-family: "Comfortaa";
+    font-weight: bold;
+    margin-top: 8px;
+}
+.credits_links a:hover {
+    color: #F2C14E;
+}
+/* -------------------------------------- about us page --------------------------- */
+.about_img img {
+    margin: 0 0 30px 0;
+}
+.purpose h1 {
+    font-family: "Fredoka One";
+    color: #BB2649;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.purpose p {
+    text-align: center;
+    margin: 0 50px 30px 50px;
+}
+/* ---history card----- */
+.history {
+    display: flex;
+    width: 100%;
+}
+.history img {
+    width: 50%;
+}
+.history_info {
+    background-color: #BB2649;
+    color: #fefefe;
+    padding: 15px;
+    text-align: center;
+}
+.history_info h2 {
+    font-family: "Fredoka One";
+    margin: 15px 0;
+}
+.history_info p {
+    font-size: 12px;
+}
+/* ------location------- */
+.location {
+    margin: 30px 0;
+}
+.location h2 {
+    font-family: "Fredoka One";
+    color: #fefefe;
+    padding: 10px 0;
+    background-color: #BB2649;
+}
+/* --------- map ------------ */
+.location iframe {
+    width: 100%;
+}
+/* -----location data ------- */
+.location_data {
+    background-color: #BB2649;
+    color: #fefefe;
+    padding: 15px;
+    font-size: 14px;
+}
+.location_data p {
+    padding: 7px 0;
+}
+/* ------- food trucks -------- */
+.food_trucks {
+    margin: 70px 20px;
+    padding: 15px;
+}
+.food_trucks img {
+    width: 300px;
+    
+}
+.food_trucks h2 {
+    background-color: #fefefe;
+    color: #BB2649;
+    padding: 10px 0;
+}
+.food_trucks p {
+    color: #BB2649;
+
+}
+/*---------about form -------*/
+.about_form {
+    padding: 25px 15px;
+}
+.about_form h2, .about_form p, .about_form label {
+    color: #BB2649;
+    margin-bottom: 15px;
+}
+/*----------------------------------- fresh page ------------------------------------*/
+/*------ date -------------*/
+#formatted-date {
+    background-color: #BB2649;
+    color: #fefefe;
+    font-family: "Comfortaa";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    margin: 5px 0;
+}
+/*------fruit info ---------*/
+.fruit_info img {
+    margin: 10px 0 10px 0;
+}
+.fruit_info {
+    background-color: #BB2649;
+    color: #fefefe;
+    padding: 50px;
+}
+.fruit_info h1, h2 {
+    font-family: "Fredoka One";
+    font-size: 30px;
+}
+.fruit_info p, ol {
+    margin: 20px 0;
+}
+.fruit_info li {
+    list-style: decimal;
+}
+/*----- form --------------*/
+.fruit_form {
+    margin: 50px;
+}
+.fruit_form h2 {
+    color: #BB2649;
+    margin: 30px 0;
+    font-size: 40px;
+}
+.chose_fruit, .personal_info, .special_info {
+    font-size: 25px;
+    color: #BB2649;
+    margin: 10px 0;
+}
+label {
+    font-size: 25px;
+}
+input, textarea {
+    width: 100%;
+    color: #BB2649;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 25px;
+    border: 1px solid #BB2649;
+}
+/*------- buton -----------*/
+.submitbtn {
+    font-family: "Fredoka One";
+    background-color: #BB2649;
+    color: #fefefe;
+    border-radius: 15px;
+}
+.submitbtn:hover {
+    background-color: #fefefe;
+    border: 3px solid #BB2649;
+    color: #BB2649;
+    transition: .5s;
+}

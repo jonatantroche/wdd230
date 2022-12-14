@@ -1,0 +1,158 @@
+@media only screen and (min-width: 36.4em){
+    /* --------------- main -------------- */
+    /* -------home_1------- */
+    .home_1_container, .home_2_container, .home_3_container, .cards, .home_6_container {
+        display: flex;
+        margin: 30px 0;
+    }
+    .home_1_container img {
+        width: 50%;
+        height: 50%;
+    }
+    .home_1_info, .home_2_info, .home_3_info, .home_6_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .home_1_info h1 {
+        font-size: 30px;
+    }
+    .home_1_info a {
+        font-size: 15px;
+        padding: 5px;
+    }
+    /* ------home_2-------- */
+    .home_2_info {
+        padding-bottom: 15px;
+    }
+    .home_2_container img {
+        order: 1;
+        width: 50%;
+        height: 50%;
+    }
+    .home_2_info h2 {
+        font-size: 30px;
+    }
+    .home_2_container p {
+        font-size: 15px;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .home_2_container a {
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    /* ----------home_3------------ */
+    .home_3_container {
+        width: 100%;
+    }
+    .home_3_container .weather {
+        width: 40%;
+        border: 1px solid #BB2649;
+        text-align: center;
+    }
+    .home_3_container .home_3_info {
+        width: 60%;
+    }
+    .home_3_info h2 {
+        font-size: 30px;
+        margin: 0 0 10px;
+    }
+    .home_3_info a {
+        padding: 5px 15px;
+    }
+    /* -------- cards --------------- */
+    .cards {
+        gap: 10px;
+    }
+    .cards img {
+        width: 100%;
+        height: 100%;
+    }
+    .img_card {
+        font-size: 14px;
+    }
+    /* -------- home_6 --------------- */
+    .home_6_container img {
+        width: 50%;
+        margin-top: 0;
+        order: 1;
+    }
+    .home_6_info h2 {
+        font-size: 30px;
+        margin: 0 0 10px;
+    }
+    .home_6_info p {
+        font-size: 14px;
+    }
+    .home_6_info a {
+        padding: 5px 15px;
+    }
+    /* ---------nav bottom------------- */
+    .nav_bottom {
+        display: none;
+    }
+    /* -------------- footer ------------- */
+    footer {
+        font-size: 16px;
+    }
+
+    /* --------------------------------- about us page -------------------- */
+    .purpose h1 {
+        font-size: 40px;
+    }
+    .purpose p {
+        font-size: 17px;
+    }
+    /* -------- history ------ */
+    .history img {
+        width: 40%;
+    }
+    /* ------- location ----- */
+    .location_data h2 {
+        font-size: 30px;
+    }
+    .location_data p {
+        font-size: 16px;
+    }
+    /* ------ history ------ */
+    .history_info h2 {
+        font-size: 50px;
+        margin: 50px 0 40px;
+    }
+    .history_info p {
+        font-size: 17px;
+    }
+    /* ------ location ----- */
+    .food_trucks {
+        display: flex;
+    }
+    .food_trucks img {
+        order: 1;
+    }
+    .food_truck_info {
+        margin-left: 20px;
+    }
+    .food_truck_info h2 {
+        font-size: 40px;
+    }
+    /*-------about form-----------*/
+    .about_form {
+        margin: 20px 80px;
+        text-align: center;
+    }
+    .about_form h2 {
+        font-size: 40px;
+    }
+    .about_form .submitbtn {
+        width: fit-content;
+        padding: 5px 20px;
+    }
+    /*------------------------------ fresh page ----------------------------------*/
+    .fruit_card {
+        margin: 80px;
+    }
+}
