@@ -430,4 +430,5 @@ input, textarea {
     border: 3px solid #BB2649;
     color: #BB2649;
     transition: .5s;
+    cursor: pointer;
 }
